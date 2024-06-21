@@ -1,0 +1,33 @@
+.content {
+	padding: 0 20px;
+}
+.img-box {
+	overflow-x: auto;
+	padding-top: 10px;
+}
+.img-box::-webkit-scrollbar {
+	height: 0px;
+	width: 0px;
+}
+
+.image-gallery {
+	display: flex;
+	gap: 10px;
+}
+
+.imgFile {
+	min-width: 100px;
+	min-height: 100px;
+	max-width: 100px;
+	max-height: 100px;
+	border: 3px solid #ccc;
+	padding: 2px;
+	border-radius: 10px;
+}
+.imgName {
+	display: inline-block;
+	max-width: 100px; /* 设置最大宽度 */
+	overflow: hidden;
+	text-overflow: ellipsis; /* 显示省略号 */
+	white-space: nowrap; /* 禁止换行 */
+}

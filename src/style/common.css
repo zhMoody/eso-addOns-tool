@@ -1,0 +1,46 @@
+.laypit-main {
+	height: calc(100vh - 50px);
+}
+.contents::-webkit-scrollbar {
+	height: 0px;
+	width: 0px;
+}
+#titlebar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: rgb(22, 119, 255);
+	height: 50px;
+	position: sticky;
+	top: 0px;
+	z-index: 2;
+	padding: 0 20px;
+}
+
+#controls {
+	display: flex;
+	user-select: none;
+}
+
+.button {
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	user-select: none;
+}
+
+.button:hover {
+	background-color: #34555555;
+	color: aliceblue;
+}
+
+#title {
+	user-select: none;
+	flex: 1;
+	text-align: left;
+	padding-left: 10px;
+}
